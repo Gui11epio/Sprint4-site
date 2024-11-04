@@ -1,12 +1,13 @@
 "use client"
+import Image from "next/image";
 import { BotaoEstilizado, CorpoPrincipal, SectionPrincipal,LinkEstilizado } from "../../style";
-import propaganda from '../assets/helpuPropaganda.png'
+import propaganda from '../image/helpuPropaganda.png'
  
  
 export default function Inicio() {
     return (
         <CorpoPrincipal >
-            <img src="/images/helpuPropaganda.png"  alt="" className="imgHelpy"/>
+            <Image src={propaganda}  alt="" className="imgHelpy"/>
             <SectionPrincipal>
                 <p>Com o HELPY, diagnosticar problemas no seu carro ficou muito mais fácil. Conversando com nosso chatbot, HELPY, você terá um diagnóstico preciso e rápido, sem complicação, é como conversar com um mecânico amigo. <br />
                 <br />

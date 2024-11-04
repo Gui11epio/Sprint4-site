@@ -13,7 +13,7 @@ export default function PaginaCadastro() {
                         <h2>CADASTRO DO USUÁRIO</h2>
                         <hr />
                         <br />
-                        <label className="label">Seu RG</label>
+                        <label className="label">Seu CPF</label>
                         <br />
                         <input type="text" className="input" required placeholder="xxx-xxx-xxx-yy" />
                         <br />
@@ -28,6 +28,10 @@ export default function PaginaCadastro() {
                         <label className="label">Sua Senha</label>
                         <br />
                         <input type="password" className="input" required placeholder=" Apenas 5 dígitos" />
+                        <br />
+                        <label className="label">Seu Endereço</label>
+                        <br />
+                        <input type="text" className="input" required placeholder="Rua, numero estado" />
 
                     </fieldset>
 

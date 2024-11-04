@@ -1,12 +1,13 @@
 "use client"
 import icone from '../image/icone.jpg';
 import helpy from '../image/HELPY.png'
-import { BotaoCliente, BotaoEstilizado, BotoesCabecalho, CabecHeader, ContainerCabecalho, ImagemCabec, ImgCabecalho, LinhaEstilizada, LinkEstilizado } from "../../style";
+import { BotaoCliente, BotaoEstilizado, BotoesCabecalho, CabecHeader, ContainerCabecalho, LinhaEstilizada, LinkEstilizado } from "../../style";
+import Image from 'next/image';
 export default function Cabecalho() {
     return (
         <CabecHeader>
             <ContainerCabecalho>
-                <ImgCabecalho src="/image/HELPY.png" alt="" />
+                <Image src={helpy} alt="" className='logoHelpy'/>
                 <BotoesCabecalho className="botao">
                     <BotaoEstilizado>
                         <LinkEstilizado href="/">Página Principal</LinkEstilizado>
@@ -20,7 +21,7 @@ export default function Cabecalho() {
                 </BotoesCabecalho>
                 <BotaoCliente>
                     <LinkEstilizado href="/cadastro">
-                        <ImagemCabec src= "/image/icone.jpg"  id='icone' />
+                        <Image src={icone} alt="" className='logoHelpy'/>
                     </LinkEstilizado>
                 </BotaoCliente>
             </ContainerCabecalho>

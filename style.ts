@@ -14,6 +14,11 @@ export const ContainerCabecalho = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    .logoHelpy{
+        width: 100px;
+        height: 100px;
+    }
 `;
  
 export const TituloCabecalho = styled.h1`
@@ -23,10 +28,6 @@ export const TituloCabecalho = styled.h1`
     margin-right: 20px;
 `;
  
-export const ImgCabecalho = styled.img`
-    width: 100px;
-    height: 100px;
-`
  
 export const BotoesCabecalho = styled.li`
     display: flex;
@@ -162,7 +163,7 @@ legend{
    
 }
  
-#participante img {
+.participanteimg{
     width: 250px;
     height: 100px;
     justify-content: center;
@@ -176,14 +177,7 @@ legend{
 }
  
 `
- 
- 
- 
-export const ImagemCabec = styled.img`
-    width:50px;
-    height: 50px;
- 
-`
+
  
 export const FormCadastro = styled.form`
  

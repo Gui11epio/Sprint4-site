@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import { BotaoEstilizado, CorpoPrincipal, SecHelpy } from "../../../style";
 import helpy from '../../image/menuHelpy-removebg-preview.png';
+import Image from "next/image";
 
 export default function InicioHelpy() {
 
@@ -17,7 +18,7 @@ export default function InicioHelpy() {
                     <a href="https://t.me/Bothelpy_bot">Pelo Telegram!</a>
                 </BotaoEstilizado>
                 <div id="idHelpy">
-                    <img src= "/image/menuHelpy-removebg-preview.png" alt="" />
+                    <Image src= {helpy} alt="" />
                 </div>
             </SecHelpy>
         </CorpoPrincipal>
