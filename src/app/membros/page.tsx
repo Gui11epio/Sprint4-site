@@ -8,6 +8,7 @@ import gui from '../../image/guilherme.jpeg';
 export default function PaginaMembros() {
     return (
         <BodyMembros>
+         <div className="princ">
             <div className="participante">
                 <Image src= {gui} alt="Imagem da Pessoa 1" className="participanteimg" />
                 <h2>Nome: Guilherme Camasmie Laiber De Jesus</h2>
@@ -25,7 +26,8 @@ export default function PaginaMembros() {
                 <h2>Nome: Fernando Fernandes Prado </h2>
                 <p>RM:  557982 </p>
             </div>
+         </div>
         </BodyMembros>
     );
-
+ 
 }

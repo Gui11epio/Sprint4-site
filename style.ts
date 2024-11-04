@@ -128,52 +128,36 @@ export const Rodape = styled.footer`
  
 `
  
-export const BodyMembros = styled.body`
+export const BodyMembros = styled.section`
+
+  background-color: skyblue;
+
+ .princ{
+     display: flex;
+     padding: 80px;
+     justify-content: space-evenly;
+     
+     div{
+        background-color: white;
+        border: 2px solid blue;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+ }
  
-div{
-    height: 171;
-    width: 1440;
-}
- 
-.sec{
-    grid-area: 'sec';
-    background-color: white;
-}  
- 
- 
+
 h2{
     text-align: center;
 }
  
-p{
-    text-align: center;
-}
- 
- 
-input{
-    align-self:center ;
-}
- 
-legend{
-    text-align: center;
-}
-#participante h2, .participante p {
-    color: #FFFFFF;
- 
-   
-}
  
 .participanteimg{
     width: 250px;
     height: 100px;
-    justify-content: center;
-    align-items: center;
-    /* width: 50%; */
     min-height: 350px;
-    border: 2px solid blue;
-    background-color: white;
- 
-    padding: 10px;
 }
  
 `
