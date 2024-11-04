@@ -1,6 +1,5 @@
 "use client"
 
-import Link from "next/link";
 import { BotaoEstilizado, CorpoPrincipal, SecHelpy } from "../../../style";
 import helpy from '../../image/menuHelpy-removebg-preview.png';
 import Image from "next/image";
