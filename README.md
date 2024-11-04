@@ -14,6 +14,9 @@ Depois de usar o primeiro comando, use o comando abaixo(pode ser no mesmo termin
 ```bash
 npm run dev
 ```
-
 O comando vai rodar o projeto inicializando ele, também dando um link para abrir o site no navegador
-Abra [http://localhost:3000](http://localhost:3000) 
+
+Para abrir localmente: [http://localhost:3000](http://localhost:3000)
+
+
+Site no ar: 
